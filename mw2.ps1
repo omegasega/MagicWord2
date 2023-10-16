@@ -34,7 +34,6 @@ $VideoPlayer.Source = $VideoSource;
 for ($count = 1; $count -le 5; $var++) {
 $VideoPlayer.Play()
  
+}
 #Show Up the Window 
 $Window.ShowDialog() | out-null
-}
-
