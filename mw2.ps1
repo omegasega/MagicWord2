@@ -31,10 +31,10 @@ $VideoPlayer.Source = $VideoSource;
 #$VideoPlayer.Padding = new Thickness(5);
 
 
-
+for ($count = 1; $count -le 5; $var++) {
 $VideoPlayer.Play()
  
 #Show Up the Window 
 $Window.ShowDialog() | out-null
-
+}
 
